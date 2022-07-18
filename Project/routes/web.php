@@ -14,25 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('master.index');
 });
 
-Route::get('/messages', function () {
-    return view('messages');
-});
 
-Route::get('/profiles', function () {
-    return view('profiles');
-});
 
-Route::get('/projects', function () {
-    return view('projects');
-});
-
-Route::get('/sign-in', function () {
-    return view('sign-in');
-});
-
-Route::get('/sign-up', function () {
-    return view('sign-up');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
